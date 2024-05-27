@@ -8,7 +8,7 @@ function Contact() {
       <p className="text-xl mb-8">
         Vous pouvez me joindre par email à{" "}
         <a href="mailto:valentinn.frappart@gmail.com" className="text-blue-500">
-          valentin@example.com
+          valentinn.frappart@gmail.com
         </a>
       </p>
     </div>

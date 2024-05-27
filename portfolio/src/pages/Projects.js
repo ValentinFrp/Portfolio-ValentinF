@@ -39,7 +39,7 @@ function Projects() {
               My_RPG
             </a>
           </div>
-          {/* Ajoutez plus de projets ici */}
+          {/* ..... */}
         </div>
       </div>
     </div>
