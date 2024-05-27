@@ -1,0 +1,51 @@
+.projects-container {
+    position: relative;
+}
+
+.main-node {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+    z-index: 10;
+    background-color: black;
+}
+
+.project-nodes {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.project-node {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 50%;
+    transition: transform 1s ease-in-out;
+}
+
+.relative:hover .project-nodes {
+    opacity: 1;
+}
+
+.relative:hover .project-node:nth-child(1) {
+    transform: rotate(0deg) translate(150px) rotate(0deg);
+}
+
+.relative:hover .project-node:nth-child(2) {
+    transform: rotate(60deg) translate(150px) rotate(-60deg);
+}
+
+.relative:hover .project-node:nth-child(3) {
+    transform: rotate(120deg) translate(150px) rotate(-120deg);
+}
